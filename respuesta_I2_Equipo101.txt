@@ -22,7 +22,20 @@ a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
 
  git rebase --continue
 
+
 b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
 
  Si puede actualizar su FORK usando los comandos del punto a respectivamente.
+
+
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+
+ Sí, GAMMA puede actualizar su FORK usando los comandos del punto a respectivamente.
+
+
+d-¿Los datos que tenía en mi repositorio, editados por mi, se pierden si quiero actualizar
+el fork?
+
+ No, los datos que tenía en mi repositorio, editados por mí, no se pierden, sino que se actualizan los nuevos. 
+
 
