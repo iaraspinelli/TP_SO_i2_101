@@ -22,7 +22,55 @@ a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
 
  git rebase --continue
 
+
 b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
 
  Si puede actualizar su FORK usando los comandos del punto a respectivamente.
+
+
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+
+ Sí, GAMMA puede actualizar su FORK usando los comandos del punto a respectivamente.
+
+
+d-¿Los datos que tenía en mi repositorio, editados por mi, se pierden si quiero actualizar
+el fork?
+
+ No, los datos que tenía en mi repositorio, editados por mí, no se pierden, sino que se actualizan los nuevos. 
+
+e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
+orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos ,
+
+Eduardo Cruz(GAMMA)
+1ro->git remote add upstream https://github.com/iaraspinelli/TP_SO_i2_101.git
+2do->git fetch upstream
+3ro->git checkout tu_rama(main o master)
+4to->git rebase upstream/tu_rama
+
+Arellano Lautaro Oscar(ALFA)
+1ro->git remote add upstream https://github.com/iaraspinelli/TP_SO_i2_101.git
+2do->git fetch upstream
+3ro->git checkout tu_rama(main o master)
+4to->git rebase upstream/tu_rama
+
+Editar archivo respuesta (GAMMA)
+git checkout tu_rama
+git rebase upstream/tu_rama
+
+Pull request de GAMMA hacia BETA
+
+BETA
+git pull  y edita el archivo
+git add .
+git commit
+git push
+
+ALFA
+>git fetch upstream y dsp
+>git rebase upstream/[rama]
+
+Pull request de ALFA hacia BETA
+
+
+
 
