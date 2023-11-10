@@ -1,0 +1,28 @@
+ALFA:
+Arellano Lautaro
+ 
+BETA:
+Iara Spinelli
+
+GAMMA:
+Eduardo Cruz
+
+
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+ Lo hicimos con los comandos:
+
+ git remote add upstream URL_del_repo_original
+
+ git fetch upstream
+
+ git checkout tu_rama
+ git rebase upstream/tu_rama
+
+ En caso de abre erroes:
+
+ git rebase --continue
+
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+
+ Si puede actualizar su FORK usando los comandos del punto a respectivamente.
+
